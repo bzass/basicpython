@@ -2,7 +2,7 @@
 FROM alpine:latest
 
 # LABEL Maintainer
-LABEL maintainer="andreas@docker.com andreas.lambrecht@docker.com"
+LABEL maintainer="Bartlomiej Zass"
 
 # Install curl
 RUN apk --no-cache add py-pip libpq python-dev curl
